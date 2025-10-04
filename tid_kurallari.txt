@@ -1,0 +1,34 @@
+1. S-Par Durumu:
+- Eğer bir TİD ifadesi "S-Par" ile bitiyorsa, bu bir sorudur.
+- S-Par olmayan ifadeler genellikle düz cümledir.
+- Örnek:
+  "SEN KARDEŞ VAR S-Par" → "Senin kardeşin var mı?"
+
+2. '-SİZ' ve '-BİZ' Ekli Sayılar:
+- "ÜÇ-SİZ" → "Üçünüz"
+- "DÖRT-SİZ" → "Dördünüz"
+- "ÜÇ-BİZ" → "Üçümüz" vb.
+
+3. Örnekli S-Par Kullanımları:
+- "TELEVİZYON İZLEMEK SIKILMAK S-Par" → "Televizyon izlemekten sıkılıyor musun?"
+- "KİTAP OKUMAK ÇALIŞMAK S-Par" → "Kitap okumaya çalışıyor musun?"
+
+4. Birleşik Kelimeler:
+- "+" işareti birleşik kelime anlamına gelir.
+- "çiçek+fanus" = "saksı"
+- "+" olmayan ifadeler ayrı ayrı çevrilir.
+
+Örnek Birleşik Kelimeler:
+UYKU+KIYAFET=PİJAMA
+BUZ+DOLAP=BUZDOLABI
+ÇOCUK+BEZ=ÇOCUK BEZİ
+ÇİÇEK+FANUS=SAKSI
+TREN+YOL=DEMİRYOLU
+DENİZ+KENAR=SAHİL
+KIZ+KIYAFET=ABİYE
+SICAKLIK+DERECE=TERMOMETRE
+İMAM+KABAN=CÜBBE
+FOTOĞRAF+ÇERÇEVE=TABLO
+PSİKOLOJİ+DOKTOR=PSİKOLOG
+SAAT+GEÇ=RÖTAR
+HIZLI+SOĞUK=AYAZ

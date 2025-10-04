@@ -1,0 +1,32 @@
+PİJAMA → UYKU + KIYAFET
+
+BUZDOLABI → BUZ + DOLAP
+
+ÇOCUK BEZİ → ÇOCUK + BEZ
+
+SAKSI → ÇİÇEK + FANUS
+
+DEMİRYOLU → TREN + YOL
+
+SAHİL → DENİZ + KENAR
+
+ABİYE → KIZ + KIYAFET
+
+TERMOMETRE → SICAKLIK + DERECE
+
+CÜBBE → İMAM + KABAN
+
+TABLO → FOTOĞRAF + ÇERÇEVE
+
+PSİKOLOG → PSİKOLOJİ + DOKTOR
+
+RÖTAR → SAAT + GEÇ
+
+AYAZ → HIZLI + SOĞUK
+
+
+Yukarıda türkçcedeki kelimelerin tidde birleşik kelime karşılıklarıdır. Çeviriyi ona göre yap.
+Örneğin:
+"sen yarın bize gelirken pijamalarını unutma" cümlesini şu şekilde çevir:
+Yarın sen biz gelmek uyku+kıyafet getirmek unutmak değil.
+

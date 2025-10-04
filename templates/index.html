@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tid-Tr Çeviri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <script>
+        window.addEventListener('load', function () {
+            // Sayfa en üste kaydırılır
+            window.scrollTo(0, 0);
+
+            // Eğer URL'de #info varsa, onu siler
+            if (window.location.hash) {
+                history.replaceState(null, null, window.location.pathname);
+            }
+        });
+    </script>
+    <nav class="nav">
+        <div class="container">
+            <h1 class="logo">
+                <a class="active" href="https://tidtrceviriproject.onrender.com"> Tid↔Tr</a>
+            </h1>
+            <ul>
+                <li><a href="#anasayfa" class="active nav-link"> Ana Sayfa</a></li>
+                <li><a href="#ceviri" class="nav-link">Çeviri Programı </a></li>
+                <li><a href="#contact" class="nav-link">Bize Ulaşın</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero" id="anasayfa">
+        <div class="contanier">
+            <h1>TİD-Türkçe Çeviri Programına Hoş Geldiniz</h1>
+            <p>
+                TİD-Türkçe metinlerin çevirileri için Çeviri Programı kısmından ulaşabilirsiniz.
+            </p>
+        </div>
+    </div>
+    <section>
+        <section id="ceviri" class="container content">
+            <h2 class="baslik">Çeviri Programı </h2>
+            <div class="cevirimetin">
+                <div class="metin-group">
+                    <h1 class="uyari"> Çeviri yönünü doğru seçmeyi unutmayınız!</h1>
+                    <label id="yon" for="direction">Çeviri Yönü:</label>
+                    <select id="direction">
+                        <option value="tid-tr">TİD -> Türkçe</option>
+                        <option value="tr-tid">Türkçe -> TİD</option>
+                    </select>
+                    <br><br>
+                    <label id="cevrilecekmetin" for="inputText">Çevrilecek Metin:</label><br>
+                    <textarea id="inputText" rows="5" cols="60"></textarea><br><br>
+                    <div class="button-group">
+                        <button class="cevirbuton" id="translateBtn">Çevir</button>
+                        <button class="temizlebuton" id="clearBtn">Temizle</button>
+                    </div>
+                </div>
+                <div class="sonuc-group">
+                    <h3 id="sonuc">Çeviri Sonucu:</h3>
+                    <div id="result"></div>
+                    <button id="copyBtn" class="kopyalaButon" disabled>Kopyala</button>
+                </div>
+            </div>
+        </section>
+    <section id="contact" class="bodyx">
+       <div class="cont">
+          <div class="deneme">
+            <h2  class="contactbaslik">Bize Ulaşın</h2>
+               <div class="left-side">
+                <div class="adress details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic"> Adres</div>
+                    <div class="text"> Eskişehir</div>
+                    <div class="text"> Türkiye</div>
+
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic"> Telefon</div>
+                    <div class="text">0222</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">E-posta</div>
+                    <div class="text">@gmail </div>
+                </div>
+               </div>
+                 <div class="right-side">
+                    <div class="topic-text">
+                        Bize Mesaj Gönderin.
+                    </div>
+                    <p>
+                        Bize ulaşmak isterseniz ağaşıdaki bilgileri doldurarak gönderebilirsiniz.
+                    </p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Adınız">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="E-posta">
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea rows="" placeholder="Mesajınız"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Mesaj Gönder">
+                        </div>
+                    </form>
+                 </div>
+            </div>
+       </div>
+
+
+
+
+    </section>
+
+    </section>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+
+</html>
+
+
